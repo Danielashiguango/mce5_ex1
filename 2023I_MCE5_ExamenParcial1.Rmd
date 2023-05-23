@@ -59,14 +59,32 @@ Hipotesis alternativa (Ha): La facilitación tiene un efecto positivo en la dive
 
 Replique el diseño realizado en el artículo en localidades del Ecuador y genere el archivo **rarespecies.csv**. 
 
-```{r crd_anfibios}
-sitios = c("parque la isla", " Balsayacu", " Alto Tena")
+``````{r crd_plantas}
+library(agricolae)
+sitios <-c("Balsayacu", "Alto Tena", "Parque la isla")
+r <- 3
+seed = 100
+crd1 <-design.crd(trt= sitios,
+                  r = r,
+                  serie=2, 
+                  seed = seed,
+                  kind = "Super-Duper", 
+                  randomization = TRUE)
+crd_re <- crd1$book
+crd_re$Abundancia <- NaN
+crd_re$Temperatura<- NaN
+crd_re$Distribucion<-NaN
+
+# write to hard disk
+write.csv(crd_re,"rarespecies.csv", row.names=FALSE, sep=";")
+# file.show("crd.txt")
 
 ```
 Explique el resultado muestra: 
 
-**Respuesta:**
-
+Se hizo un muestreo de tres sitios en donde se realizo una  búsqueda de especies
+raras, en la cual se muestrea la abundancia de las especies, temperatura y
+distribucion. 
 
 
 ## Variables

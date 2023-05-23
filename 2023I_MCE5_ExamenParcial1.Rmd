@@ -60,7 +60,7 @@ Hipotesis alternativa (Ha): La facilitación tiene un efecto positivo en la dive
 Replique el diseño realizado en el artículo en localidades del Ecuador y genere el archivo **rarespecies.csv**. 
 
 ```{r crd_anfibios}
-sitios = c("Sitio1", "Chuquitos", "Chompi")
+sitios = c("parque la isla", " Balsayacu", " Alto Tena")
 
 ```
 Explique el resultado muestra: 

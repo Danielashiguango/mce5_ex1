@@ -90,8 +90,7 @@ raras, en la cual se muestrea la abundancia de las especies, temperatura, sustra
 ## Variables
 ¿Cuáles son sus variables (dependiente(s) e independiente(s))? Explique cada una de las variables
 
-Variable dependientes: Abundancia de especies, temperatura
-Variable independiente:densidad y sustrato. 
+Variable dependientes: Abundancia de especies, temperatura y las Variables independiente:densidad y sustrato. Estas variables son medidas para evaluar el impacto de las variables en la planta. 
 
 
 ## Gráfica e hipótesis

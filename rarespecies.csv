@@ -1,13 +1,13 @@
-"plots","r","sitios","Abundancia","Temperatura","Sustrato"
-101,1,"Parque la isla",NA,NA,NA
-102,1,"Balsayacu",NA,NA,NA
-103,1,"Alto Tena",NA,NA,NA
-104,1,"Muyuna",NA,NA,NA
-105,2,"Muyuna",NA,NA,NA
-106,2,"Parque la isla",NA,NA,NA
-107,2,"Alto Tena",NA,NA,NA
-108,2,"Balsayacu",NA,NA,NA
-109,3,"Balsayacu",NA,NA,NA
-110,3,"Alto Tena",NA,NA,NA
-111,3,"Muyuna",NA,NA,NA
-112,3,"Parque la isla",NA,NA,NA
+"plots","r","sitios","Abundancia","Temperatura","Sustrato","densidad"
+101,1,"Parque la isla",NA,NA,NA,NA
+102,1,"Balsayacu",NA,NA,NA,NA
+103,1,"Alto Tena",NA,NA,NA,NA
+104,1,"Muyuna",NA,NA,NA,NA
+105,2,"Muyuna",NA,NA,NA,NA
+106,2,"Parque la isla",NA,NA,NA,NA
+107,2,"Alto Tena",NA,NA,NA,NA
+108,2,"Balsayacu",NA,NA,NA,NA
+109,3,"Balsayacu",NA,NA,NA,NA
+110,3,"Alto Tena",NA,NA,NA,NA
+111,3,"Muyuna",NA,NA,NA,NA
+112,3,"Parque la isla",NA,NA,NA,NA

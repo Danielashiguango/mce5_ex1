@@ -74,7 +74,7 @@ crd_re <- crd1$book
 crd_re$Abundancia <- NaN
 crd_re$Temperatura<- NaN
 crd_re$Sustrato<-NaN
-crd_re$Sustrato<-NaN
+crd_re$densidad<-NaN
 
 # write to hard disk
 write.csv(crd_re,"rarespecies.csv", row.names=FALSE, sep=";")
@@ -84,7 +84,7 @@ write.csv(crd_re,"rarespecies.csv", row.names=FALSE, sep=";")
 Explique el resultado muestra: 
 
 Se hizo un muestreo de tres sitios en donde se realizo una  búsqueda de especies
-raras, en la cual se muestrea la abundancia de las especies, temperatura y distribucion. 
+raras, en la cual se muestrea la abundancia de las especies, temperatura, sustrato y densidad. 
 
 
 ## Variables

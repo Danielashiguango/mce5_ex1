@@ -50,7 +50,9 @@ En el estudio realizado por <a href="https://doi.org/10.1111/jvs.13185">Sanches 
 
 ## Para su potencial investigación ¿Cuál sería su hipótesis ? (Explique)
 
-**Respuesta:**
+Hipotesis nula (Ho): La facilitación no tiene un efecto significativo en la diversidad de especies en etapas juveniles ni en la reducción de las disparidades de rendimiento entre vecinos de diferentes especies en etapas maduras.
+
+Hipotesis alternativa (Ha): La facilitación tiene un efecto positivo en la diversidad de especies en etapas juveniles, evitando la extinción de especies localmente raras, y reduce las disparidades de rendimiento entre vecinos de diferentes especies en etapas maduras.
 
 
 ## Muestra

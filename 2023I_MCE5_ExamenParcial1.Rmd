@@ -61,7 +61,7 @@ Replique el diseño realizado en el artículo en localidades del Ecuador y gener
 
 ``````{r crd_plantas}
 library(agricolae)
-sitios <-c("Balsayacu", "Alto Tena", "Parque la isla")
+sitios <-c("Balsayacu", "Muyuna", "Alto Tena", "Parque la isla")
 r <- 3
 seed = 100
 crd1 <-design.crd(trt= sitios,
@@ -73,7 +73,8 @@ crd1 <-design.crd(trt= sitios,
 crd_re <- crd1$book
 crd_re$Abundancia <- NaN
 crd_re$Temperatura<- NaN
-crd_re$Distribucion<-NaN
+crd_re$Sustrato<-NaN
+crd_re$Sustrato<-NaN
 
 # write to hard disk
 write.csv(crd_re,"rarespecies.csv", row.names=FALSE, sep=";")
@@ -83,8 +84,7 @@ write.csv(crd_re,"rarespecies.csv", row.names=FALSE, sep=";")
 Explique el resultado muestra: 
 
 Se hizo un muestreo de tres sitios en donde se realizo una  búsqueda de especies
-raras, en la cual se muestrea la abundancia de las especies, temperatura y
-distribucion. 
+raras, en la cual se muestrea la abundancia de las especies, temperatura y distribucion. 
 
 
 ## Variables
